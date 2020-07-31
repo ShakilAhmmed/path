@@ -351,19 +351,3 @@ class Path
 		  return array_column(self::$district[strtolower($division)] , $_type , "name");
 	 }
 }
-
-//
-//print_r(Path::getDivisions());
-//print_r(Path::getDivisions('en'));
-//print_r(Path::getDivisions('bn'));
-//
-//print_r(Path::getDistricts());
-//print_r(Path::getDistricts('en'));
-//print_r(Path::getDistricts('bn'));
-//
-//
-//print_r(Path::getSingleDivision('dhaka' , 'bn'));
-//print_r(Path::getSingleDivision('chittagong'));
-//
-//print_r(Path::getDivisionWiseDistrict('dhaka'));
-//print_r(Path::getDivisionWiseDistrict('dhaka' , 'bn'));
