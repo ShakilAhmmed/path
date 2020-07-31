@@ -2,6 +2,12 @@
 
 Package For Getting Division, District and SubDistrict Name (Bangladesh)
 
+## Installation
+```composer 
+composer require shakil-ahmmed/path
+```
+
+
 ## Usage
 
 ```php
