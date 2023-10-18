@@ -59,3 +59,14 @@ Path::getDivisionWiseDistrict('dhaka' , 'bn');
 ```php
 Path::getDivisionWiseDistrict('dhaka');
 ```
+
+###### একটি জেলার সব উপজেলার জন্য  (বাংলায়)
+```php
+Path::getDistrictWiseUpzillas('comilla' , 'bn');
+```
+
+
+###### একটি জেলার সব উপজেলার জন্য  (ইংরেজিতে)
+```php
+Path::getDistrictWiseUpzillas('comilla');
+```
